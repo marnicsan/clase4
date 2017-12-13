@@ -10,27 +10,27 @@ var Pelicula= function(id,titulo,descripcion,anio,duracion,actores,director){
 	this.actores=actores;
 	this.director=director;
 
-	editarTitulo=function(titulo){
+	this.editarTitulo=function(titulo){
 		this.titulo=titulo;
 	}
 
-	editarDescripcion=function(descripcion){
+	this.editarDescripcion=function(descripcion){
 		this.descripcion=descripcion;
 	}
 
-	editarAnio=function(anio){
+	this.editarAnio=function(anio){
 		this.anio=anio;
 	}
 
-	editarDuracion=function(duracion){
+	this.editarDuracion=function(duracion){
 		this.duracion=duracion
 	}
 
-	agregarActor=function(actor){
+	this.agregarActor=function(actor){
 		this.actores.push(actor);
 	}
 
-	editarDirector=function(director){
+	this.editarDirector=function(director){
 		this.director=director;
 	}
 }
